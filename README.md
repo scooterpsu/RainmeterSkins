@@ -1,2 +1,2 @@
 # RainmeterSkins
-Rainmeter Skins
+Somewhere to save various created/modified Rainmeter skins
