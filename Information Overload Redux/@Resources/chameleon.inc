@@ -8,13 +8,20 @@
     Measure=Plugin
     Plugin=Chameleon
     Type=Desktop
-    Path=[WallpaperEnginePath]
-    UpdateDivider=1
+    Path=[PreviewPath]
     OnChangeAction=[!UpdateMeasureGroup Colors]
     FallbackBG1=#FallbackBG1#
     FallbackBG2=#FallbackBG2#
     FallbackFG1=#FallbackFG1#
     FallbackFG2=#FallbackFG2#
+
+[BackgroundHex]
+    Measure=Plugin
+    Plugin=Chameleon
+    Parent=Chameleon
+    Color=Background2
+    UpdateDivider=-1
+    Group=Colors
 
 [Background1]
     Measure=Plugin

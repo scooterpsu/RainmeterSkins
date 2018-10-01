@@ -1,6 +1,8 @@
 Those Icons https://www.flaticon.com/authors/those-icons
 processor.png
 voltage.png
+song.png
+album.png
 
 Freepik https://www.flaticon.com/authors/freepik
 controller.png
@@ -8,6 +10,7 @@ fan.png
 headset.png
 memory.png
 thermometer.png
+playpause.png
 
 Pixel Perfect https://www.flaticon.com/authors/pixel-perfect
 arrow-down.png
@@ -18,6 +21,12 @@ speaker-high.png (modified)
 speaker-mid.png (modified)
 speaker-low.png (modified)
 speaker-muted.png (modified)
+play.png
+pause.png
+next.png
+previous.png
+plus.png
+minus.png
 
 Smashicons https://www.flaticon.com/authors/smashicons
 harddisk.png (modified)

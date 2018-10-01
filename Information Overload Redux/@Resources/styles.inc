@@ -38,7 +38,7 @@
     ImageAlpha=215
     ImageTint=#LabelColor#
     DynamicVariables=1
-    X=(#LabelWidth#/2)+#SidebarWidth#-11
+    X=(#LabelWidth#/2)+#SidebarWidth#-10
     
 [SHADOW]
     ImageAlpha=175
@@ -94,7 +94,7 @@
     FontEffectColor=#LabelColor#
     FontWeight=900
     StringAlign=Center
-    X=(#LabelWidth#/2)+#SidebarWidth#-1
+    X=(#LabelWidth#/2)+#SidebarWidth#
     
 [COLUMN_2]
     X=(((#Width#-#LeftOffset#)/#Columns#)*1)+#LeftOffset#
@@ -147,3 +147,13 @@
     
 [DIVIDER]
     X=((#Width#-#LeftOffset#-#RightPadding#)/2)+#LeftOffset#+#DividerOffset#
+    
+[VISUALIZER_BAR]
+    BarOrientation=Vertical
+    DynamicVariables=1
+    AntiAlias=1
+    BarColor=#AccentColor#
+    DynamicVariables=1
+    Y=0
+    W=10
+    H=(#WORKAREAHEIGHT#*0.75)

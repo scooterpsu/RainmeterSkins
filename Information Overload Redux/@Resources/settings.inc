@@ -1,4 +1,5 @@
 [Rainmeter]
+    Update=2500
     @Include=#@#\chameleon.inc
     @Include2=#@#\isfullscreen.inc
 
@@ -6,14 +7,14 @@
     Font="Agency FB"
     
 ;======[POSITION/SIZE SETTINGS]=====;
-    Width=370
+    Width=365
     LabelWidth=56
-    DividerOffset=14
-    SidebarWidth=24
+    DividerOffset=15
+    SidebarWidth=25
     
 ;========[COLOR SETTINGS]========;
 ;Background color
-    BackgroundColor=[Background2],200
+    BackgroundColor=[Background2],215
     
 ;Bar fill/value color
     AccentColor=[Foreground2],230
@@ -23,9 +24,7 @@
     
 ;Bar background and border color
     DetailColor=[Background1],74
-    
-;FrostedGlass style (Acrylic/Blur)
-    FrostedType=Acrylic
+
 ;======[PER SECTION SETTINGS]======;
 ;AIO settings
     MaxPumpRPM=3000
@@ -49,9 +48,6 @@
     FAN1SENSOR=1-0-CLCC_Fan_1
     FAN2NAME="Rear"
     FAN2SENSOR=1-0-CLCC_Fan_2
-
-;Memory settings
-    SwapType=""
     
 ;Motherboard settings  
     ;Supports up to 6 columns
@@ -105,6 +101,16 @@
     
     MBV1NAME="CPU Voltage"
     MBV1SENSOR=C-VA
+ 
+;Now Playing Settings
+    PLAYER="iTunes"
+    AUTOHIDE="NETWORK"
+ 
+;PSU Settings
+    PSUTEMP=1-2-RM750i_Temp_1
+    PSUFAN=1-2-RM750i_Fan_1
+    PSUOUTPUT=1-2-RM750i_Output_W
+    PSUEFF=1-2-RM750i_Efficiency
 
 ;Storage Settings
     D1=C:
@@ -116,5 +122,8 @@
     ;http://speedtest.net
     MaxDownloadMbits=57.93
     MaxUploadMbits=51.71
+    
+;Visualizer Settings
+    Bands=30
 
 @Include=#@#\styles.inc
