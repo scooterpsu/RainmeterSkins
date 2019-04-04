@@ -1,0 +1,2 @@
+[Variables]
+ControllerBattery=75

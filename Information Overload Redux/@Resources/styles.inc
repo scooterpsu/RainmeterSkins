@@ -28,9 +28,18 @@
     SolidColor=#DetailColor#
     X=#LeftOffset#
     W=(#Width#-#LeftOffset#-#RightPadding#)
-    H=12
+    H=10
     DynamicVariables=1
-
+  
+[LINE]
+    LineColor=#AccentColor#
+    X=#LeftOffset#
+    W=(#Width#-#LeftOffset#-#RightPadding#)
+    H=12
+    DynamicVariables=1   
+    LineCount=1
+    LineWidth=2
+    
 [ICON]
     Antialias=1
     W=20

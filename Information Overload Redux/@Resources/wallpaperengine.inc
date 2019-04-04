@@ -1,5 +1,7 @@
 [Variables]
     DefaultMonitor=//./DISPLAY1
+    ;WallpaperEngineFolder=%ProgramFiles(x86)%/Steam
+    WallpaperEngineFolder="E:/SteamLibrary"
     
 [MonitorCount]
     UpdateDivider=-1
@@ -18,15 +20,6 @@
     Measure=String
     String=#DefaultMonitor#
     OnChangeAction=[!UpdateMeasure WallpaperEnginePath][!SetOption FileViewFolder Path [WallpaperEnginePath]][!CommandMeasure FileViewFolder Update]
-
-[ProgramFiles]
-    Measure=String
-    String=%ProgramFiles(x86)%
-    IfMatch=^$
-    IfMatchAction=[!SetOption WallpaperEngineConfig Url "file:///%ProgramFiles%/Steam/steamapps/common/wallpaper_engine/config.json"]
-    IfNotMatchAction=[!SetOption WallpaperEngineConfig Url "file:///%ProgramFiles(x86)%/Steam/steamapps/common/wallpaper_engine/config.json"]
-    UpdateDivider=-1
-    Substitute=" ":"%20","\":"/"
 
 [WallpaperEngine32Running]
     Measure=Plugin
@@ -52,6 +45,7 @@
     Plugin=WebParser
     RegExp=(?siU)"wallpaperconfig"(.*)"selectedwallpapers" :.*{(.*)"version"
     UpdateRate=20
+    URL="file://#WallpaperEngineFolder#/steamapps/common/wallpaper_engine/config.json"
     OnRegExpErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
     OnConnectErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
     OnChangeAction=[!SetOption Chameleon UpdateDivider "-1"][!UpdateMeasure WallpaperEngineLayout][!UpdateMeasure WallpaperEnginePath]

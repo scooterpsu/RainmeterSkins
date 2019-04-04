@@ -40,9 +40,9 @@
 ;Battery settings
     ControllerLabel="Xbox One Controller"
     ControllerPort=0
-    HeadsetLabel="Logitech G930 Headset"
-    HeadsetMaxBattery=601
-    
+    HeadsetLabel="Logitech G533 Headset"
+    HeadsetHardwareID=4294967295
+	
 ;Case fan settings
     FAN1NAME="Front"
     FAN1SENSOR=1-0-CLCC_Fan_1

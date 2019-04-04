@@ -30,3 +30,4 @@ minus.png
 
 Smashicons https://www.flaticon.com/authors/smashicons
 harddisk.png (modified)
+charging.png
