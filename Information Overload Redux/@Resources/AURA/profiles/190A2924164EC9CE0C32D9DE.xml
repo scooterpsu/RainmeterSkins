@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+    <header>ASUS_AURA</header>
+    <version>1.2</version>
+    <funcid>4</funcid>
+    <connecteddevice key="Mainboard_Master">0</connecteddevice>
+    <connecteddevice key="GSkillDram">5</connecteddevice>
+    <connecteddevice key="AddressableStrip">8</connecteddevice>
+    <connecteddevice key="WaterCooler">18</connecteddevice>
+    <ingroupdevice key="Mainboard_Master">0</ingroupdevice>
+    <ingroupdevice key="GSkillDram">5</ingroupdevice>
+    <ingroupdevice key="AddressableStrip">8</ingroupdevice>
+    <ingroupdevice key="WaterCooler">18</ingroupdevice>
+    <device key="Group">
+        <isenabled>1</isenabled>
+        <scene key="S0">
+            <state>S0</state>
+            <mode key="5">
+                <led key="0">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="1">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="2">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="3">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="4">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="5">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="6">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="7">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="8">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="9">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="10">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="11">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="12">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="13">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="14">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="15">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="16">
+                    <DeviceName>GSkillDram</DeviceName>
+                    <type>458752</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0</hashue2>
+                    <hue2>0.022222</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="17">
+                    <DeviceName>AddressableStrip</DeviceName>
+                    <type>69632</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                    <hashue2>0</hashue2>
+                    <hue2>0.000000</hue2>
+                </led>
+                <led key="18">
+                    <DeviceName>AddressableStrip</DeviceName>
+                    <type>69632</type>
+                    <color>8959</color>
+                    <hue>0.022222</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                    <hashue2>0</hashue2>
+                    <hue2>0.000000</hue2>
+                </led>
+                <led key="19">
+                    <DeviceName>WaterCooler</DeviceName>
+                    <type>856064</type>
+                    <color>255</color>
+                    <hue>0.000000</hue>
+                    <saturation>1.000000</saturation>
+                    <lightness>0.500000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <color_type>Gradient</color_type>
+                <start_end_color_cycle_start>0.869607</start_end_color_cycle_start>
+                <start_end_color_cycle_range>0.000000</start_end_color_cycle_range>
+                <start_end_color_cycle_end>0.869607</start_end_color_cycle_end>
+                <start_to_end_or_end_to_start>0</start_to_end_or_end_to_start>
+                <effect_path_order>
+                    <order key="Mainboard">0</order>
+                    <order key="Vga">-1</order>
+                    <order key="Keyboard">-1</order>
+                    <order key="Mouse">-1</order>
+                    <order key="GSkillDram">1</order>
+                    <order key="RogAudioDevices_Microphone">-1</order>
+                    <order key="RogDisplay">-1</order>
+                    <order key="AddressableStrip">2</order>
+                    <order key="RogAudioDevices_Headset">-1</order>
+                    <order key="ODD">-1</order>
+                    <order key="HDD">-1</order>
+                    <order key="HUE">-1</order>
+                    <order key="NB_Keyboard">-1</order>
+                    <order key="Projecter">-1</order>
+                    <order key="Desktop">-1</order>
+                    <order key="NB_Keyboard_LED">-1</order>
+                    <order key="Terminal">-1</order>
+                    <order key="WaterCooler">3</order>
+                    <order key="Extension_Card">-1</order>
+                    <order key="MousePad">-1</order>
+                    <order key="Add_RGB_CARD">-1</order>
+                    <order key="RogAudioDevices_HeadphoneStand">-1</order>
+                    <order key="Lamp">-1</order>
+                    <order key="EXT_SSD">-1</order>
+                    <order key="M2_SSD">-1</order>
+                    <order key="NOTEBOOK_CHASSIS">-1</order>
+                </effect_path_order>
+                <effect_speed>0</effect_speed>
+                <thermal_threshold_one>40</thermal_threshold_one>
+                <thermal_threshold_two>60</thermal_threshold_two>
+                <thermal_value_type>Thermal</thermal_value_type>
+                <music_index>1</music_index>
+                <singlecolor>0</singlecolor>
+            </mode>
+        </scene>
+        <scene key="Non-S0">
+            <state>Non-S0</state>
+            <mode key="101">
+                <led key="0">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="1">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="2">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="3">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="4">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="5">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="6">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+            </mode>
+        </scene>
+    </device>
+    <device key="Mainboard">
+        <scene key="Non-S0">
+            <state>Non-S0</state>
+            <mode key="101">
+                <led key="0">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="1">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="2">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="3">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="4">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="5">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+                <led key="6">
+                    <DeviceName>MotherBoard</DeviceName>
+                    <type>65536</type>
+                    <color>0</color>
+                    <hue>0.000000</hue>
+                    <saturation>0.000000</saturation>
+                    <lightness>0.000000</lightness>
+                    <hashue2>0.000000</hashue2>
+                    <hue2>0.000000</hue2>
+                    <speed>0</speed>
+                    <direction>0</direction>
+                </led>
+            </mode>
+        </scene>
+    </device>
+    <strip_rgb_adjust>
+        <srtip_led key="5">
+            <order key="R">0</order>
+            <order key="B">1</order>
+            <order key="G">2</order>
+        </srtip_led>
+        <srtip_led key="6">
+            <order key="R">0</order>
+            <order key="B">1</order>
+            <order key="G">2</order>
+        </srtip_led>
+    </strip_rgb_adjust>
+    <addressable_strip_using>1
+        <addressable_strip_generation_type key="0">1</addressable_strip_generation_type>
+        <addressable_strip_led_count key="0">120</addressable_strip_led_count>
+        <addressable_strip_generation_type key="1">1</addressable_strip_generation_type>
+        <addressable_strip_led_count key="1">120</addressable_strip_led_count>
+    </addressable_strip_using>
+    <addressable_strip_terminal_using>0</addressable_strip_terminal_using>
+    <addressable_strip_card_using>0</addressable_strip_card_using>
+    <device key="HUE">
+        <last_ip></last_ip>
+    </device>
+    <exclusivemode>1</exclusivemode>
+</root>

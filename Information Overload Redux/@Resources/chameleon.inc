@@ -14,6 +14,7 @@
     FallbackBG2=#FallbackBG2#
     FallbackFG1=#FallbackFG1#
     FallbackFG2=#FallbackFG2#
+	ContextAwareColors=0
 
 [BackgroundHex]
     Measure=Plugin
@@ -59,6 +60,24 @@
     UpdateDivider=-1
     Group=Colors
     Format=Dec
+	
+[Light1]
+    Measure=Plugin
+    Plugin=Chameleon
+    Parent=Chameleon
+    Color=Light2
+    UpdateDivider=-1
+    Group=Colors
+    Format=Dec
+
+[Dark1]
+    Measure=Plugin
+    Plugin=Chameleon
+    Parent=Chameleon
+    Color=Dark1
+    UpdateDivider=-1
+    Group=Colors
+    Format=Dec	
 
 ;Comment out the include to disable wallpaper engine support    
 @Include=#@#\wallpaperengine.inc

@@ -48,26 +48,26 @@
     URL="file://#WallpaperEngineFolder#/steamapps/common/wallpaper_engine/config.json"
     OnRegExpErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
     OnConnectErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
-    OnChangeAction=[!SetOption Chameleon UpdateDivider "-1"][!UpdateMeasure WallpaperEngineLayout][!UpdateMeasure WallpaperEnginePath]
+    OnChangeAction=[!SetOption Chameleon UpdateDivider "-1"][!UpdateMeasure WallpaperEnginePath]
 
-[WallpaperEngineLayout]
-    UpdateDivider=-1
-    Measure=WebParser
-    URL=[WallpaperEngineConfig]
-    StringIndex=1
-    RegExp=(?siU)"layout" : (.*),
-    StringIndex2=1
-    IfEqualValue=0
-    IfEqualAction=[!EnableMeasure CurrentMonitorScript]
-    IfAboveValue=0
-    IfAboveAction=[!DisableMeasure CurrentMonitorScript][!SetOption CurrentMonitor String #DefaultMonitor#][!UpdateMeasure WallpaperEnginePath]
+;[WallpaperEngineLayout]
+;    UpdateDivider=-1
+;    Measure=WebParser
+;    URL=[WallpaperEngineConfig]
+;    StringIndex=1
+;    RegExp=(?siU)"layout" : (.*),
+;    StringIndex2=1
+;    IfEqualValue=0
+;    IfEqualAction=[!EnableMeasure CurrentMonitorScript]
+;    IfAboveValue=0
+;    IfAboveAction=[!DisableMeasure CurrentMonitorScript][!SetOption CurrentMonitor String #DefaultMonitor#][!UpdateMeasure WallpaperEnginePath]
 
 [WallpaperEnginePath]
     UpdateDivider=-1
     Measure=WebParser
     URL=[WallpaperEngineConfig]
     StringIndex=2
-    RegExp=(?siU)"[CurrentMonitor]".*"file" : "(.*)"
+    RegExp=(?siU)"file" : "(.*)"
     DynamicVariables=1
     StringIndex2=1
     RegExpSubstitute=1

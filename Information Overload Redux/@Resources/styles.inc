@@ -166,3 +166,9 @@
     Y=0
     W=10
     H=(#WORKAREAHEIGHT#*0.75)
+	
+[LAUNCHER_ICON]
+	H=#IconSize#
+	X=35
+	ImageAlpha=215
+	ImageTint=#LabelColor#

@@ -11,6 +11,10 @@ headset.png
 memory.png
 thermometer.png
 playpause.png
+color.png
+trash.png
+trash-full.png
+wallpaper.png
 
 Pixel Perfect https://www.flaticon.com/authors/pixel-perfect
 arrow-down.png
@@ -31,3 +35,6 @@ minus.png
 Smashicons https://www.flaticon.com/authors/smashicons
 harddisk.png (modified)
 charging.png
+
+monkik https://www.flaticon.com/authors/monkik
+files.png
