@@ -1,25 +1,6 @@
 [Variables]
-    DefaultMonitor=//./DISPLAY1
     ;WallpaperEngineFolder=%ProgramFiles(x86)%/Steam
     WallpaperEngineFolder="E:/SteamLibrary"
-    
-[MonitorCount]
-    UpdateDivider=-1
-    Measure=Plugin
-    Plugin=SysInfo
-    SysInfoType=NUM_MONITORS
-
-[CurrentMonitorScript]
-    Disabled=1
-    Measure=Script
-    ScriptFile=#@#\Scripts\CurrentMonitor.lua
-    NumMonitors=[MonitorCount]
-    OnUpdateAction=[!SetOption CurrentMonitor String //./DISPLAY[CurrentMonitorScript]]
-    
-[CurrentMonitor]
-    Measure=String
-    String=#DefaultMonitor#
-    OnChangeAction=[!UpdateMeasure WallpaperEnginePath][!SetOption FileViewFolder Path [WallpaperEnginePath]][!CommandMeasure FileViewFolder Update]
 
 [WallpaperEngine32Running]
     Measure=Plugin
@@ -43,36 +24,35 @@
     Disabled=1
     Measure=Plugin
     Plugin=WebParser
-    RegExp=(?siU)"wallpaperconfig"(.*)"selectedwallpapers" :.*{(.*)"version"
+    RegExp=(?siU)"lastselectedmonitor" : "(.*)",*selectedwallpapers" :.*{(.*)"version"
     UpdateRate=20
     URL="file://#WallpaperEngineFolder#/steamapps/common/wallpaper_engine/config.json"
     OnRegExpErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
     OnConnectErrorAction=[!SetOption Chameleon Type "Desktop"][!SetOption Chameleon UpdateDivider "1"][!UpdateMeasure Chameleon]
-    OnChangeAction=[!SetOption Chameleon UpdateDivider "-1"][!UpdateMeasure WallpaperEnginePath]
+    OnChangeAction=[!SetOption Chameleon UpdateDivider "-1"][!UpdateMeasure WallpaperEngineLastMonitor]
 
-;[WallpaperEngineLayout]
-;    UpdateDivider=-1
-;    Measure=WebParser
-;    URL=[WallpaperEngineConfig]
-;    StringIndex=1
-;    RegExp=(?siU)"layout" : (.*),
-;    StringIndex2=1
-;    IfEqualValue=0
-;    IfEqualAction=[!EnableMeasure CurrentMonitorScript]
-;    IfAboveValue=0
-;    IfAboveAction=[!DisableMeasure CurrentMonitorScript][!SetOption CurrentMonitor String #DefaultMonitor#][!UpdateMeasure WallpaperEnginePath]
+[WallpaperEngineLastMonitor]
+    Measure=WebParser
+    URL=[WallpaperEngineConfig]
+    StringIndex=1
+    RegExp=(?siU)DISPLAY(.*){
+    DynamicVariables=1
+    IfMatch=(?=DISPLAY)
+    IfMatchAction=[!EnableMeasure WallpaperEnginePath][!UpdateMeasure WallpaperEnginePath]
+    OnChangeAction=[!UpdateMeasure WallpaperEngineConfig]
 
 [WallpaperEnginePath]
-    UpdateDivider=-1
+    Disabled=1
+    ;UpdateDivider=-1
     Measure=WebParser
     URL=[WallpaperEngineConfig]
     StringIndex=2
-    RegExp=(?siU)"file" : "(.*)"
+    RegExp=(?siU)[&WallpaperEngineLastMonitor].*"file" : "(.*)"
     DynamicVariables=1
     StringIndex2=1
     RegExpSubstitute=1
     Substitute="^(.+/)([^/]+)$":"\1","/":"\"
-    OnChangeAction=[!SetOption FileViewFolder Path [WallpaperEnginePath]][!CommandMeasure FileViewFolder Update]
+    OnUpdateAction=[!SetOption FileViewFolder Path [WallpaperEnginePath]][!CommandMeasure FileViewFolder Update]
     
 [FileViewFolder]
     Measure=Plugin
@@ -84,7 +64,6 @@
     FinishAction=[!UpdateMeasure PreviewFilename]
   
 [PreviewFilename]
-    UpdateDivider=-1
     Measure=Plugin
     Plugin=FileView
     Group=Filename

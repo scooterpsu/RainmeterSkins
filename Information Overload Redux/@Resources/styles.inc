@@ -171,4 +171,4 @@
 	H=#IconSize#
 	X=35
 	ImageAlpha=215
-	ImageTint=#LabelColor#
+	;ImageTint=#LabelColor#
